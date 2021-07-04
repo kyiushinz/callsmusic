@@ -10,8 +10,8 @@ from ..helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f'<b>👋🏻 Hi {message.from_user.mention()}!</b>\n\n'
-        'I am Calls Music bot, '
-        'I let you play music in group calls.'
+        'I am Randovlsky Music, '
+        'Gua bisa setel lagu semau Lo kontol...'
         '\n\nThe commands I currently support are:\n\n'
         '/play - play the replied audio file or YouTube video\n'
         '/pause - pause the audio stream\n'
@@ -24,10 +24,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        '🔈 Channel', url='https://t.me/callsmusic',
+                        '🔈 Channel', url='https://t.me/CurhatHatiRemaja',
                     ),
                     InlineKeyboardButton(
-                        'Group 💬', url='https://t.me/callsmusicchat',
+                        'Group 💬', url='https://t.me/Grup_Cari_Teman',
                     ),
                 ],
             ],
